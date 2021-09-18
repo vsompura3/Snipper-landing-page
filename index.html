@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Snippet Template Page</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<!-- Nav -->
+				<nav class="navbar">
+					<img src="./Assets/Logo.svg" alt="Logo" class="logo" />
+					<img src="./Assets/Hamburger Menu.svg" alt="Menu" class="menu-toggle" />
+					<ul role="list" class="navbar-list">
+						<li>
+							<a href="#" aria-label="search" class="icon-search">
+								<img src="./Assets/Search Icon.svg" alt="search-icon" />
+							</a>
+						</li>
+						<li>
+							<a href="#" aria-label="login" class="login">Sign in</a>
+						</li>
+						<li>
+							<a href="#" aria-label="button-action" class="btn">
+								Get Started <span>- it's free</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- Hero -->
+				<section class="hero flow-content">
+					<div class="hero-content flow-content">
+						<h1>Gorgeous Code Snippets</h1>
+						<p>
+							with snipper, create fully customizable code snippets in a matter of seconds right
+							from your browsers.
+						</p>
+						<a href="#" aria-label="button-action" class="btn">
+							Get Started <span>- it's free</span>
+						</a>
+						<p>No credit card required.</p>
+					</div>
+					<div class="hero-image">
+						<img src="./Assets/Snippet Image.png" alt="Snippet" />
+					</div>
+				</section>
+			</div>
+		</header>
+		<!-- Main -->
+		<main>
+			<div class="container">
+				<section class="snipper">
+					<div class="snipper-image">
+						<img src="./Assets/Customizable Image.png" alt="customizable" />
+					</div>
+					<div class="snipper-content flow-content">
+						<h2>A fully customizable code snippet editor</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, totam provident, tempora
+							ab fuga labore ut iusto quia, delectus in recusandae deleniti!
+						</p>
+						<a href="#" aria-label="button-action" class="btn">
+							Get Started <span>- it's free</span>
+						</a>
+					</div>
+				</section>
+			</div>
+		</main>
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="footer-content flow-content">
+					<img src="./Assets/Logo.svg" alt="Logo" class="logo" />
+					<div class="terms-privacy">
+						<a href="#">Terms and Conditions</a>
+						<a href="#">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- JS -->
+		<script>
+			const menuToggle = document.querySelector(".menu-toggle");
+			const menu = document.querySelector(".navbar-list");
+			menuToggle.addEventListener("click", function () {
+				menu.classList.toggle("open");
+			});
+		</script>
+	</body>
+</html>

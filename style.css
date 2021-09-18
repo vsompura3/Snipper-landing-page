@@ -5,6 +5,7 @@
 
 	--clr-neutral-100: #fff;
 	--clr-neutral-200: #999;
+	--clr-neutral-300: #393838;
 	--clr-neutral-700: #000;
 }
 
@@ -119,6 +120,10 @@ h1 {
 	max-width: 43.75em;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.hero-content p {
+	color: var(--clr-neutral-300);
 }
 
 .hero-image img {
